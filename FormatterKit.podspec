@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'TimeIntervalFormatter' do |ss|
     ss.watchos.deployment_target = '2.0'
-    s.ios.deployment_target = '7.0'
+    ss.ios.deployment_target = '7.0'
     ss.source_files = 'FormatterKit/TTTTimeIntervalFormatter.{h,m}'
     ss.resources = 'Localizations/**'
   end
